@@ -1,4 +1,4 @@
-*.db
+*db
 .DS_Store
 *venv
 env
@@ -8,4 +8,3 @@ node_modules
 .idea/*
 *.pyc
 tmp
-static/dist
