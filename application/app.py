@@ -16,7 +16,6 @@ def any_root_path(path):
 
 
 @app.route("/api/user", methods=["GET"])
-@requires_auth
 def get_user():
     return jsonify(result=g.current_user)
 
